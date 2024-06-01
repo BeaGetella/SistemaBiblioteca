@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cindypu_prueba2.proyectoprogra.OpcionesClientesController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="511.0" prefWidth="656.0" style="-fx-background-color: #D9CCC5;">
+         <children>
+            <Text layoutX="203.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido Usuario">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="226.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Que deseas hacer hoy?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnprestarLibros" layoutX="232.0" layoutY="201.0" mnemonicParsing="false" onAction="#btnprestarLibros" prefHeight="37.0" prefWidth="109.0" style="-fx-background-color: #C291F2;" text="Prestar libros" />
+            <Button fx:id="btnBuscarLibros" layoutX="51.0" layoutY="198.0" mnemonicParsing="false" onAction="#btnBuscarLibros" prefHeight="37.0" prefWidth="109.0" style="-fx-background-color: #C291F2;" text="Buscar libros" />
+            <Button fx:id="btnDevolverlibros" layoutX="229.0" layoutY="376.0" mnemonicParsing="false" onAction="#btnDevolverlibros" prefHeight="43.0" prefWidth="115.0" style="-fx-background-color: #C291F2;" text="Devolver libros" />
+            <Button fx:id="btnvermultas" layoutX="455.0" layoutY="201.0" mnemonicParsing="false" onAction="#btnvermultas" prefHeight="43.0" prefWidth="96.0" style="-fx-background-color: #C291F2;" text="Ver multas" />
+            <Button fx:id="btnConsultarhistorial" layoutX="42.0" layoutY="376.0" mnemonicParsing="false" onAction="#btnConsultarhistorial" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: #C291F2;" text="Consultar historial " />
+            <Button fx:id="btnInicio" layoutX="470.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnInicio" prefHeight="37.0" prefWidth="64.0" style="-fx-background-color: #C291F2;" text="Inicio">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="99.0" fitWidth="99.0" layoutX="56.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/buscarlibro.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="109.0" layoutX="232.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/prestar%20libro.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="96.0" layoutX="57.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/historial.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="99.0" fitWidth="96.0" layoutX="239.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/devolverlibro.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="96.0" fitWidth="83.0" layoutX="461.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/ver%20multa.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
